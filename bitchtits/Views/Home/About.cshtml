@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "About Us";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p style="padding-bottom:25px">We provide a bunch of services, all from the comfort of your home.</p>
+
+<div class="text-center col-sm-12">
+    <img id="TechSupport" class="col-sm-4" src="~/Images/demo.jpg">
+    <img id="MSOfficeHelp" class="col-sm-4" src="~/Images/demo.jpg">
+    <img id="GraphicDesign" class="col-sm-4" src="~/Images/demo.jpg">
+</div>
+
+<br />
+
+<div class="text-center col-sm-12" style="padding-bottom: 25px">
+    <img id="SoftwareHelp" class="col-sm-4" src="~/Images/demo.jpg">
+    <img id="HardwareHelp" class="col-sm-4" src="~/Images/demo.jpg">
+    <img id="Other" class="col-sm-4" src="~/Images/demo.jpg">
+</div>
+
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+
+<script>
+    $('#TechSupport').mouseenter(function () {
+        $(this).hide();
+    });
+
+</script>
